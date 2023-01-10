@@ -26,7 +26,7 @@ const Footer = () => {
             <FontAwesomeIcon color='white' size='lg' icon={faEnvelope} />
           </a>
           <br />
-          <img className="final-logo" src="images/Flogo2.png" alt="" />
+          <img className="final-logo" src="images/flogo2.png" alt="" />
         </div>
       </footer>
     </div>
