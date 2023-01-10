@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <div class="navbar-brand lalit-logo-div">
+    <nav className="navbar navbar-expand-lg">
+    <div className="container">
+      <div className="navbar-brand lalit-logo-div">
         <img
           src="images/logox.png"
-          class="d-inline-block align-baseline lalit-logo"
+          className="d-inline-block align-baseline lalit-logo"
           alt=""
         />
       </div>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup"
@@ -21,24 +21,24 @@ const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse justify-content-end"
+        className="collapse navbar-collapse justify-content-end"
         id="navbarNavAltMarkup"
       >
-        <ul class="navbar-nav mr-auto top titlebox">
-          <li class="mx-4 nav-item active">
-            <Link class="nav-link text-white" to="/">HOME</Link>
+        <ul className="navbar-nav mr-auto top titlebox">
+          <li className="mx-4 nav-item active">
+            <Link className="nav-link text-white" to="/">HOME</Link>
           </li>
-          <li class="mx-4 nav-item active">
-            <Link class="nav-link text-white" to="/projects">PROJECTS</Link>
+          <li className="mx-4 nav-item active">
+            <Link className="nav-link text-white" to="/projects">PROJECTS</Link>
           </li>
-          <li class="mx-4 nav-item active">
-            <Link class="nav-link text-white" to="/about">ABOUT</Link>
+          <li className="mx-4 nav-item active">
+            <Link className="nav-link text-white" to="/about">ABOUT</Link>
           </li>
-          <li class="mx-4 nav-item active">
-            <Link class="nav-link text-white" to="/contact">CONTACT</Link>
+          <li className="mx-4 nav-item active">
+            <Link className="nav-link text-white" to="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>
