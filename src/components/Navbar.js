@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -12,7 +11,7 @@ const Navbar = () => {
           alt=""
         />
       </div>
-      <button
+     {/*  <button
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -41,7 +40,7 @@ const Navbar = () => {
             <Link className="nav-link text-white" to="/contact">CONTACT</Link>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   </nav>
   )
