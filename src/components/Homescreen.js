@@ -18,7 +18,7 @@ const Homescreen = () => {
     <div className="box-2">
       <img
         className="profile-pic"
-        src="images/lalitp2.png"
+        src={process.env.PUBLIC_URL + '/images/lalitp2.png'}
         alt="Lalit Yadav"
       />
     </div>

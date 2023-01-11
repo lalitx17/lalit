@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="container">
       <div className="navbar-brand lalit-logo-div">
         <img
-          src="images/logox.png"
+         src={process.env.PUBLIC_URL + '/images/logox.png'}
           className="d-inline-block align-baseline lalit-logo"
           alt=""
         />

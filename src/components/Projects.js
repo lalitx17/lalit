@@ -7,7 +7,8 @@ const Projects = () => {
         <div className="box-3">
           <img
           className="box-img"
-            src="images/songs.jpg"
+          src={process.env.PUBLIC_URL + '/images/songs.jpg'}
+          
             width="250px"
             height="313px"
             alt="songs"
@@ -17,7 +18,7 @@ const Projects = () => {
         <div className="box-4">
         <img
           className="box-img"
-            src="images/books2.jpg"
+          src={process.env.PUBLIC_URL + '/images/books2.jpg'}
             width="243px"
             height="235px"
             alt="books"
@@ -30,7 +31,7 @@ const Projects = () => {
         <div className="box-5">
         <img
           className="box-img"
-            src="images/music3.jpg"
+          src={process.env.PUBLIC_URL + '/images/music3.jpg'}
             width="243px"
             height="235px"
             alt="music"
@@ -40,7 +41,7 @@ const Projects = () => {
         <div className="box-6">
         <img
           className="box-img"
-            src="images/maps.jpg"
+          src={process.env.PUBLIC_URL + '/images/maps.jpg'}
             width="243px"
             height="313px"
             alt="maps"
@@ -52,7 +53,7 @@ const Projects = () => {
         <div className="box-7">
         <img
           className="box-img"
-            src="images/todolist.jpg"
+          src={process.env.PUBLIC_URL + '/images/todolist.jpg'}
             width="243px"
             height="313px"
             alt="todolist"
@@ -62,7 +63,7 @@ const Projects = () => {
         <div className="box-8">
         <img
           className="box-img"
-            src="images/Artificial.jpg"
+          src={process.env.PUBLIC_URL + '/images/Artificial.jpg'}
             width="243px"
             height="235px"
             alt="AI"
