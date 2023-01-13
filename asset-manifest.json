@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lity/static/css/main.d2fe2ac2.css",
-    "main.js": "/lity/static/js/main.44b33644.js",
-    "index.html": "/lity/index.html",
-    "main.d2fe2ac2.css.map": "/lity/static/css/main.d2fe2ac2.css.map",
-    "main.44b33644.js.map": "/lity/static/js/main.44b33644.js.map"
+    "main.css": "/lity.github.io/static/css/main.d2fe2ac2.css",
+    "main.js": "/lity.github.io/static/js/main.93461ae3.js",
+    "index.html": "/lity.github.io/index.html",
+    "main.d2fe2ac2.css.map": "/lity.github.io/static/css/main.d2fe2ac2.css.map",
+    "main.93461ae3.js.map": "/lity.github.io/static/js/main.93461ae3.js.map"
   },
   "entrypoints": [
     "static/css/main.d2fe2ac2.css",
-    "static/js/main.44b33644.js"
+    "static/js/main.93461ae3.js"
   ]
 }
