@@ -10,9 +10,8 @@ const Homescreen = () => {
       </div>
       <p className="title-paragraph">
         An enthusiastic product designer currently shaping the future of
-        software development by designing smooth user-interfaces that promote
-        user interaction with information and data. While traveling around the
-        world.
+        website development by integrating strong algorithms that promote
+        user interaction with information and data.
       </p>
     </div>
     <div className="box-2">

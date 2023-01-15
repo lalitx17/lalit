@@ -15,10 +15,9 @@ const Footer = () => {
           <h6 className="next">WHAT'S NEXT</h6>
           <h1 className="together">Let's work together.</h1>
           <p className="project-call">
-            you'd like to talk about a project you want help with or need an
+            If you'd like to talk about a project you want help with or need an
             advice about product design, just drop me a message at
-            nathan@ojieame.design I'm currently Available for any design systems
-            projects, dashboard designs or landing pages gigs.
+            lalityadav.ver1@gmail.com.
           </p>
           <br />
           <a className="email-link" href="mailto: lalityadav.ver2@gmail.com">
