@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbarx">
       <div className="lalit-logo">
-        <img src={process.env.PUBLIC_URL + "/images/logox.png"} width={'250px'} height={'150px'}  alt="LOGO" />
+        <img className="lalit-img" src={process.env.PUBLIC_URL + "/images/logox.png"} width={'250px'} height={'150px'}  alt="LOGO" />
       </div>
       <div className="push-left">
         <button
