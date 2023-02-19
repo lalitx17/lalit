@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectIntro from "./ProjectIntro";
 import Projects from "./Projects";
 
 const ProjectPage = () => {
