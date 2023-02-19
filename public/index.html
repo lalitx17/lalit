@@ -23,11 +23,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather+Sans:wght@600&family=Quicksand:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather+Sans:wght@400;800&family=Oswald&family=Quicksand:wght@300;400&display=swap"
       rel="stylesheet"
     />
-       
-<!--      font awesone -->
+    <!--      font awesone -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -35,11 +34,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+<!--     jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
 
     <title>Lalit Yadav</title>
   </head>
   <body>
+    <div class="spinner-wrapper">
+      <div class="container-loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        </div>
+    </div>
+
     <div id="root"></div>
 
     <script
@@ -47,5 +68,22 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        //Preloader
+        var preloader = $(".spinner-wrapper");
+        preloaderFadeOutTime = 500;
+        const TimeOut = setTimeout(function(){
+          preloader.fadeOut(preloaderFadeOutTime)
+        }, 3000)
+      });
+    </script>
   </body>
 </html>

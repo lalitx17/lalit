@@ -6,7 +6,7 @@ const Homescreen = () => {
     <div className="box-1">
       <h1 className="hello">Hello, it's me</h1>
       <div>
-        <h1 className="lalit">lalit.</h1>
+        <h1 className="lalit">Lalit.</h1>
       </div>
       <p className="title-paragraph">
         An enthusiastic product designer currently shaping the future of
