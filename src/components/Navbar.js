@@ -1,53 +1,53 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
-    <div className="container">
-      <div className="navbar-brand lalit-logo-div">
-        <img
-         src={process.env.PUBLIC_URL + '/images/logox.png'}
-          className="d-inline-block align-baseline lalit-logo"
-          alt=""
-        />
+    <nav className="navbarx">
+      <div className="lalit-logo">
+        <img src={process.env.PUBLIC_URL + "/images/logox.png"} width={'250px'} height={'150px'}  alt="LOGO" />
       </div>
-       <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div
-        className="collapse navbar-collapse justify-content-end"
-        id="navbarNavAltMarkup"
-      >
-        <ul className="navbar-nav mr-auto top titlebox">
-          <li className="mx-4 nav-item active">
-            <Link className="nav-link text-white" to="/">HOME</Link>
+      <div className="push-left">
+        <button
+          id="menu-toggler"
+          data-class="menu-active"
+          className="hamburgerx"
+        >
+          <span className="hamburger-line hamburger-line-top"></span>
+          <span className="hamburger-line hamburger-line-middle"></span>
+          <span className="hamburger-line hamburger-line-bottom"></span>
+        </button>
+
+        <ul id="primary-menu" className="menu nav-menu">
+          <li className="menu-item current-menu-item">
+            <a className="nav__link" href="/">
+              HOME
+            </a>
           </li>
-          <li className="mx-4 nav-item active">
-            <Link className="nav-link text-white" to="/projects">PROJECTS</Link>
+          <li className="menu-item dropdown">
+          <a className="nav__link" href="/projects">
+              PROJECTS
+            </a>
           </li>
-          <li className="mx-4 nav-item active">
-            <Link className="nav-link text-white" to="/experience">EXPERIENCE</Link>
+          <li className="menu-item dropdown">
+          <a className="nav__link" href="/experience">
+              EXPERIENCE
+            </a>
           </li>
-          <li className="mx-4 nav-item active">
-            <Link className="nav-link text-white" to="/about">ABOUT</Link>
+          <li className="menu-item ">
+          <a className="nav__link" href="/about">
+              ABOUT
+            </a>
           </li>
-          <li className="mx-4 nav-item active">
-            <Link className="nav-link text-white" to="/contact">CONTACT</Link>
+          <li className="menu-item ">
+          <a className="nav__link" href="/contact">
+              CONTACT
+            </a>
           </li>
         </ul>
-      </div> 
-    </div>
-  </nav>
-  )
-}
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

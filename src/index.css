@@ -1,32 +1,33 @@
 body{
   background-color: black !important;
   color:white !important;
+  margin: 0;
 }
 
-.custom-toggler.navbar-toggler {
+/* .custom-toggler.navbar-toggler {
   border-color: white;
 }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+} */
 
 .lalit-logo-div{
   width: 18%;
 }
 
-.lalit-logo{
+/* .lalit-logo{
   width: 100%;
-}
+} */
 
-nav{
+/* nav{
   color: black !important;
-}
+} */
 
-.nav-link{
+/* .nav-link{
   font-family: 'Quicksand', sans-serif;
-}
+} */
 .container-1{
   display: flex;
   flex-direction: row;

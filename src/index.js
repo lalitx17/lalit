@@ -7,6 +7,7 @@ import './contact.css';
 import './about.css';
 import './experience.css';
 import './preloader.css';
+import './navbar.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
