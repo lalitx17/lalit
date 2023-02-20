@@ -33,6 +33,7 @@
     font-weight: 700;
     position: absolute;
     max-width: 400px;
+    animation: down-to-top 2s ease-in-out;
 }
 
 .v{

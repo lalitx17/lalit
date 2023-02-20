@@ -24,6 +24,7 @@ ul{
     font-size: 30px;
     flex-basis: 50%;
     padding: 2rem;
+    animation: down-to-top 2s ease-in-out;
   }
   
   .box-about-2{
@@ -32,6 +33,7 @@ ul{
 
   .profile-about-pic{
     width: 25rem;
+    animation: scaleOut 2s ease-in-out;
   }
 
   .title-about-paragraph{
@@ -53,8 +55,7 @@ ul{
   flex-basis: 25%;
   opacity: 0.6;
   padding-left:5.5em ;
-
-
+  animation: left-to-right 2s ease-in-out;
 }
 
 .box-about-4{
@@ -63,6 +64,7 @@ ul{
    padding-left: 2em;
   padding-right: 2em;
   opacity: 0.8;
+  animation: right-to-left 2s ease-in-out;
 }
 
 .container-list{

@@ -49,7 +49,12 @@ border-radius: 0px !important;
   font-family: 'Oswald', sans-serif;
   font-size: 3em;
   margin-bottom: 0.5em;
+  animation: left-to-right 2s ease-in-out;
 
+}
+
+.col-sm-12{
+  animation: down-to-top 2s ease-in-out;
 }
 
 .contact-form{
