@@ -5,7 +5,6 @@ body {
 }
 
 a {
-  text-decoration: none !important;
   color: inherit !important;
 }
 
@@ -84,6 +83,7 @@ html {
 .title-paragraph {
   font-family: "Quicksand", sans-serif;
   opacity: 0.8;
+  font-size: 17px;
 }
 
 /* project intro */
@@ -356,6 +356,11 @@ footer {
   .box-8 {
     margin-bottom: 2rem;
   }
+
+  .project-title{
+    margin-top: 2rem;
+  }
+
 }
 
 @media (max-width: 320px) {

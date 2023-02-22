@@ -43,7 +43,7 @@
     <title>Lalit Yadav</title>
   </head>
   <body>
-    <!--  <div class="spinner-wrapper">
+     <div class="spinner-wrapper">
       <div class="container-loader">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -62,7 +62,7 @@
         <div class="circle"></div>
         <div class="circle"></div>
         </div>
-    </div> -->
+    </div>
     
 
     <div id="root"></div>
@@ -75,12 +75,19 @@
 
     <script>
       $(document).ready(function () {
-        //Preloader
         var preloader = $(".spinner-wrapper");
         preloaderFadeOutTime = 500;
-        const TimeOut = setTimeout(function () {
+        function preloaderx() { setTimeout(function () {
           preloader.fadeOut(preloaderFadeOutTime);
-        }, 3000);
+        }, 3000);}
+        preloaderx();
+        if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
+            sessionStorage.setItem( 'doNotShow', 'true' );
+            preloaderx();
+        } else {
+           $ ('.spinner-wrapper, .preloader').hide();
+        }
+
       });
 
       $(document).ready(function () {

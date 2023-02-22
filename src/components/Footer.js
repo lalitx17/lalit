@@ -15,9 +15,7 @@ const Footer = () => {
           <h6 className="next">WHAT'S NEXT</h6>
           <h1 className="together">Let's work together.</h1>
           <p className="project-call">
-            If you'd like to talk about a project you want help with or need an
-            advice about product design, just drop me a message at
-            lalityadav.ver1@gmail.com.
+            If you'd like to talk about a project or job offer, I'm just one email away. 
           </p>
           <br />
           <a className="email-link" href="mailto: lalityadav.ver2@gmail.com">

@@ -29,11 +29,11 @@ const Navbar = () => {
               PROJECTS
             </a>
           </li>
-          <li className="menu-item dropdown">
+          {/* <li className="menu-item dropdown">
           <a className="nav__link" href="/experience">
               EXPERIENCE
             </a>
-          </li>
+          </li> */}
           <li className="menu-item ">
           <a className="nav__link" href="/about">
               ABOUT
