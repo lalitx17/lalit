@@ -78,7 +78,7 @@ const Contact = () => {
                     <label htmlFor="floatingComment">Message</label>
                   </div>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6LdzRpYkAAAAAAtfrria-LD3XWVGgap7UqN4WoGN"></div>
+                <div className="g-recaptcha" data-sitekey="6LdzRpYkAAAAAAtfrria-LD3XWVGgap7UqN4WoGN"></div>
                 <button
                   className="connect btn btn-primary btn-lg"
                   type="submit"
