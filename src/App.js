@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
 import { About } from './components/About';
 import Contact from './components/Contact';
-import Experience from './components/Experience';
 
 
 function App() {
