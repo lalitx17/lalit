@@ -102,10 +102,15 @@
           document.body.classList.toggle(className);
         }
 
-          $(".nav__link").click(function () {
-            toggleBodyClass("menu-active");
-          });
+
+        $(".nav__link").click(function () {
+         if ($(window).width() <= 820){
+          toggleBodyClass("menu-active");
+         }
       });
+
+    });
+
     </script>
   </body>
 </html>
