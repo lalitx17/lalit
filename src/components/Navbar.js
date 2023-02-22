@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="push-left">
         <button
           id="menu-toggler"
-          data-class="menu-active"
+          data-x="menu-active"
           className="hamburgerx"
         >
           <span className="hamburger-line hamburger-line-top"></span>
@@ -21,7 +21,7 @@ const Navbar = () => {
 
         <ul id="primary-menu" className="menu nav-menu">
           <li className="menu-item current-menu-item">
-            <Link className="nav__link" to="/">
+            <Link  className="nav__link" to ="/">
               HOME
             </Link>
           </li>
