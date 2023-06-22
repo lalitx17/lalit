@@ -15,7 +15,7 @@ export const About = () => {
         <div className="box-about-2">
           <img
             className="profile-about-pic"
-            src={process.env.PUBLIC_URL + "/images/lalit-revolve.jpg"}
+            src={process.env.PUBLIC_URL + "/images/QuirkyLality.jpg"}
             alt="Lalit Yadav"
           />
         </div>
